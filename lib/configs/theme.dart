@@ -1,0 +1,82 @@
+import 'package:flutter/material.dart';
+import 'package:nitenite/configs/config.dart';
+
+final mainTheme = Themes(
+    colors: Colours(
+      appBar: Color(0xFFD8D8D8),
+      border: Color(0xFFD8D8D8),
+      bottomBar: Color(0xFF2E3933),
+      modelSheet: Color(0xFFFFFFFF),
+      banner: Color(0x4DD8D8D8),
+      card: Color(0xFFFFFFFF),
+      button3: Color(0xFF21409A),
+      button2: Color(0xFF000000),
+      button1: Color(0xFF155D97),
+      button4: Color(0xFFF0F0F0),
+      primary: Color(0xFF2E3933),
+      secondary: Color(0xFFC34E17),
+      background: Color(0xFFFFFFFF),
+      background2: Color(0xFFD0D4D0),
+      surface: Color(0xFFA0C5DB),
+      selectedItemBackground: Color(0x1A155D97),
+      text1: Color(0xFF2A2A2A),
+      text2: Color(0xFFFFFFFF),
+      text3: Color(0xFF155D97),
+      text4: Color(0xC98D8D8D),
+      text5: Color(0xFFB00020),
+      error: Color(0xFFC52D2D),
+      gradientStart1: Color(0xFF645AFF),
+      gradientEnd1: Color(0xFFA573FF),
+      disabled: Color(0x4D21409A),
+      divider: Color(0xAA979797),
+      divider2: Color(0xFFE3E3E3),
+      pending: Color(0xFFFFAE42),
+      success: Color(0xFF1DB83A),
+      done: Color(0xFF9F9F9F),
+      separatorColor: Color(0xFFC3D6DC),
+      shadow: Color(0x33155D97),
+      green: Color(0xFF73D17D),
+      selectedChip: Color(0xFFE8F1FF),
+    ),
+    suffix: '');
+
+final ThemeData themeData = ThemeData(
+    textTheme: TextTheme(
+      headline1: App.theme.styles.title2,
+      headline2: App.theme.styles.title4,
+      headline3: App.theme.styles.title6,
+      headline4: App.theme.styles.title7,
+      subtitle1: App.theme.styles.subTitle3,
+      subtitle2: App.theme.styles.subTitle5,
+      bodyText1: App.theme.styles.body4,
+      bodyText2: App.theme.styles.body5,
+    ),
+    primaryColor: App.theme.colors.primary,
+    backgroundColor: App.theme.colors.background,
+    scaffoldBackgroundColor: App.theme.colors.background,
+    canvasColor: App.theme.colors.background,
+    appBarTheme: AppBarTheme(
+      backgroundColor: App.theme.colors.background,
+      titleTextStyle: App.theme.styles.title1.copyWith(color: App.theme.colors.text2),
+    ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      backgroundColor: App.theme.colors.background,
+      selectedItemColor: App.theme.colors.primary,
+      unselectedItemColor: App.theme.colors.disabled,
+    ),
+    colorScheme: ColorScheme(
+        primary: App.theme.colors.primary,
+        onPrimary: App.theme.colors.text2,
+        secondary: App.theme.colors.primary,
+        onSecondary: App.theme.colors.text2,
+        errorContainer: App.theme.colors.error,
+        error: App.theme.colors.error,
+        onError: App.theme.colors.text2,
+        background: App.theme.colors.background2,
+        onBackground: App.theme.colors.primary,
+        brightness: Brightness.light,
+        surface: App.theme.colors.surface,
+        onSurface: App.theme.colors.text2
+    ),
+    useMaterial3: true
+);

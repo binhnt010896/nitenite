@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$USER_HOME$/Projects/nitenite/android" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/audioplayers_android-1.1.3/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/desktop_webview_auth-0.0.11/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/device_info_plus-8.0.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_auth-4.2.5/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_core-2.4.1/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_database-10.0.9/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_dynamic_links-5.0.11/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/fluttertoast-8.1.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_mobile_ads-2.3.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_android-2.0.22/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/sqflite-2.2.3/android" />
+            <option value="$USER_HOME$/Projects/nitenite/android" />
+            <option value="$USER_HOME$/Projects/nitenite/android/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
